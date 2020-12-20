@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="240.0" y="0.0">com.company.CommonCollection</node>
+    <node x="548.0" y="483.0">com.company.ErrorMessage</node>
+    <node x="745.0" y="483.0">com.company.Criteries</node>
+    <node x="0.0" y="211.0">com.company.WebRecepie</node>
+    <node x="821.0" y="733.0">com.company.Criteriy</node>
+    <node x="627.0" y="733.0">com.company.Main</node>
+    <node x="305.0" y="483.0">com.company.Catalog</node>
+    <node x="757.5" y="0.0">com.company.MenuCommand</node>
+    <node x="0.0" y="0.0">com.company.Recepie</node>
+    <node x="292.0" y="733.0">com.company.MenagerMenuUI</node>
+    <node x="920.0" y="167.0">com.company.AddWebRacepie</node>
+    <node x="0.0" y="895.0">com.company.Injector</node>
+    <node x="546.0" y="167.0">com.company.DownloadWebRecepie</node>
+    <node x="740.0" y="167.0">com.company.ChangeWebRecepie</node>
+    <node x="0.0" y="483.0">com.company.PrivateCollection</node>
+    <node x="0.0" y="733.0">com.company.Recepies</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.DownloadWebRecepie" target="com.company.MenuCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="633.0" y="142.0" />
+      <point x="778.3333333333334" y="142.0" />
+      <point x="-41.66666666666663" y="58.5" />
+    </edge>
+    <edge source="com.company.ChangeWebRecepie" target="com.company.MenuCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.company.AddWebRacepie" target="com.company.MenuCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="989.5" y="142.0" />
+      <point x="861.6666666666666" y="142.0" />
+      <point x="41.66666666666663" y="58.5" />
+    </edge>
+    <edge source="com.company.WebRecepie" target="com.company.Recepie">
+      <point x="0.0" y="-113.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="804.5" y="1458.5" />
+  <SelectedNodes>
+    <node>com.company.Criteriy</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
